@@ -5,10 +5,12 @@
 
 For example, if you just use `logich` without any registered middleware it will do nothing:
 
-    var logich = require("logich");
-    
-    var logger = logich();
-    logger.log("Hello world!"); // Does nothing...
+```js
+var logich = require("logich");
+
+var logger = logich();
+logger.log("Hello world!"); // Does nothing...
+```
  
 To make it do something, you have to register middleware that will process your logs.
 You can use basic built-in middleware as follows: 
