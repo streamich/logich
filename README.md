@@ -43,6 +43,10 @@ logger.use(function(message, next) {
 
 Or use already written middleware:
 
+- `require("logich").object` - Converts log message into an object `{"message": "you log message"}`.
+- `require("logich").time` - Adds current timestamp in JSON fromat (`Date.toJSON()`) to the log object `{"time": "2014-11-15T15:54:46.059Z"}`.
+- `require("logich").json` - Converts log message to JSON string.
+- `require("logich").console` - Uses `console.log()` to print log message.
 - [`logich-loggly`](https://www.npmjs.org/package/logich-loggly) - write logs to [loggly.com](http://loggly.com).
 - [`logich-loggly-browser`](https://www.npmjs.org/package/logich-loggly-browser) - write logs to [loggly.com](http://loggly.com) from browser using Webpack or Browserify.
 - [`logich-file`](https://www.npmjs.org/package/logich-file) - write to a local file on a disk.
