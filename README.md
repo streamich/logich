@@ -50,7 +50,7 @@ Or use already written middleware:
 
 Built in middleware:
 
-- `logich.object` - Converts log message into an object `{"message": "you log message"}`.
-- `logich.time` - Adds current timestamp in JSON fromat (`Date.toJSON()`) to the log object `{"time": "2014-11-15T15:54:46.059Z"}`.
+- `logich.object` - Converts log message into an object `{"message": "your log message"}`.
+- `logich.time` - Adds current timestamp in JSON fromat, `Date.toJSON()`.
 - `logich.json` - Converts log message to JSON string.
 - `logich.console` - Uses `console.log()` to print log message.

@@ -1,6 +1,6 @@
 {
     "name": "logich",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "description": "A light-weight extensible logging system written in Node.js way.",
     "keywords": ["logger", "logging", "logs", "logich"],
     "main": "./logich",
