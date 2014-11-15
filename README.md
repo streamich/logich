@@ -44,5 +44,6 @@ logger.use(function(message, next) {
 Or use already written middleware:
 
 - [`logich-loggly`](https://www.npmjs.org/package/logich-loggly) - write logs to [loggly.com](http://loggly.com).
+- [`logich-loggly-browser`](https://www.npmjs.org/package/logich-loggly-browser) - write logs to [loggly.com](http://loggly.com) from browser using Webpack or Browserify.
 - [`logich-file`](https://www.npmjs.org/package/logich-file) - write to a local file on a disk.
 - [`logich-file-dated`](https://www.npmjs.org/package/logich-file-dated) - write logs to files that rotate by date.
